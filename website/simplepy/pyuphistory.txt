@@ -1,0 +1,54 @@
+    1  pwd
+    2  mkdir depdeb
+    3  cd depdeb
+    4  git clone https://github.com/DePaul-deBettencourt/DePaul-deBettencourt.github.io.git
+    5  cd ../.
+    6  git clone https://github.com/DePaul-deBettencourt/DePaul-deBettencourt.github.io.git depdeb
+    7  git clone https://github.com/DePaul-deBettencourt/DePaul-deBettencourt.github.io.git depdeb1
+    8  cd depdeb1
+    9  ls -al
+   10  git add .
+   11  git commit -m "fixes for https"
+   12  git remote -v
+   13  git push origin master
+   14  cd pysrvr 
+   15  python3 wsgi_hello.py
+   16  pmap
+   17  listall
+   18  ps -ux
+   19  ps
+   20  cd ../.
+   21  ps -ux
+   22  python3 wsgi_hello.py
+   23  sudo apt install python3.7
+   24  sudo apt update
+   25  sudo apt install python3.7
+   26  sudo apt install python3
+   27  sudo apt install python3.6
+   28  apt-cache search python3.6
+   29  apt-cache search python3.4
+   30  sudo add-apt-repository ppa:jonathonf/python-3.7
+   31  apt-cache search add-repository
+   32  apt-cache search add-apt-repository
+   33  sudo add-apt-repository ppa:jonathonf/python-3.7
+   34  sudo apt-cache search add-apt-repository
+   35  sudo apt-get install -y software-properties-common
+   36  sudo add-apt-repository ppa:jonathonf/python-3.7
+   37  sudo apt update
+   38  sudo apt-get update
+   39  sudo apt-get install python3.7
+   40  sudo add-apt-repository ppa:jonathonf/python-3.6
+   41  sudo apt-get update
+   42  sudo apt-get install python3.6
+   43  python3 --version
+   44  python3.6 --version
+   45  python3.6 wsgi_hello.py
+   46  cd pysrvr
+   47  python3.6 responsive.py
+   48  cd../simplepy
+   49  cd ../simplepy
+   50  python helloworld0.py
+   51  python3 helloworld0.py
+   52  python3.6 helloworld0.py
+   53  history
+   54  history > pyuphistory.txt
